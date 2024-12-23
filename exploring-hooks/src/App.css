@@ -1,0 +1,278 @@
+
+.carteComment {
+  box-shadow: 0px 0px 17px rgb(228, 228, 228);
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  list-style-type: none;
+  border-radius: 14px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.dansCartePoste {
+  height: 90%;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.cartePoste {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+  list-style-type: none;
+  display: flex;
+  border-radius: 14px;
+}
+
+.cartePoste:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.cartePoste1:hover {
+  box-shadow: 0px 0px 8px rgb(228, 228, 228);;
+}
+
+.cartePoste1 {
+  box-shadow: 0px 0px 17px rgb(228, 228, 228);
+  background-color: white;
+  margin-left: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 44%;
+  list-style-type: none;
+  display: flex;
+  border-radius: 14px;
+}
+
+.highlight {
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.titre {
+  color: black;
+}
+
+.titre1 {
+  color: black;
+  font-weight: bold;
+  margin: 5%;
+}
+
+body {
+  padding-top: 4%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 2%;
+}
+
+.autourCartePoste {
+flex-wrap: wrap;
+justify-content: flex-start;
+display: flex;
+/* grid-template-columns: repeat(3, 1fr);
+column-gap: 1%;
+display: grid; */
+}
+
+.autourCartePoste1 {
+  align-items: center;
+}
+
+.titrePagePoste {
+  text-align: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px ;
+}
+
+.postPage {
+  justify-content: center;
+}
+
+.titrePostPage  {
+  text-align: center;
+}
+
+.titrePagePoste {
+  text-align: center;
+}
+
+.autourImgPostPage {
+  display: flex;
+  justify-content: center;
+}
+
+.imgPostPage {
+  border-radius: 14px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: auto;
+  width: auto;
+}
+
+.bodyPostPage {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.titreComment {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.bodyComment {
+  margin-bottom: 0;
+  color: #767676;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.strip {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(
+    -71deg, rgb(21, 195, 154), rgb(74, 110, 224) 95%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  ;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px ;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 768px){
+  
+  .titrePagePoste {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .cartePoste1 {
+    box-shadow: 0px 0px 17px rgb(228, 228, 228);
+    background-color: white;
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    border-radius: 14px;
+    margin: auto;
+  }
+
+  .titre1 {
+    color: black;
+    font-weight: bold;
+    margin: 5%;
+    font-size: 70%;
+  }
+
+  .cartePoste {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    border-radius: 14px;
+  }
+
+  .dansCartePoste {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  
+  .autourCartePoste {
+    /* flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex; */
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1%;
+    display: grid;
+    margin-top: 35px;
+  }
+
+  .titre {
+    font-size: 12px;
+  }
+
+  body {
+    padding-top: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .titrePostPage {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .imgPostPage {
+    width: 250px;
+  }
+
+  .bodyPostPage {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+
+  .carteComment {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    padding-right: 15px;
+  }
+
+  .titreComment{
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .bodyComment{
+    margin-left: 0;
+    font-size: 12px;
+  }
+}
